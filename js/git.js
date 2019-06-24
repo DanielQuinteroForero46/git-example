@@ -1,1 +1,1 @@
-console.log('Hola estoy en el local repo');
+console.log('¡Hola GitHub!');
