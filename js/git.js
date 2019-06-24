@@ -1,2 +1,2 @@
 console.log('¡Hola GitHub!');
-console.log('Gir Pull');
+console.log('Git Pull');
