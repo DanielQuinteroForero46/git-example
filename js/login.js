@@ -1,2 +1,5 @@
 console.log('Script de Login');
-console.log('jksajdka');
+
+document.getElementById('btn-registrar').addEventListener('click', function(e){
+	console.log(e);
+});
