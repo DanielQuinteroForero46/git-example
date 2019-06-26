@@ -8,10 +8,4 @@ document.addEventListener('DOMContentLoaded', function(){
 			console.log(campo);
 		}
 	});
-
-
-	console.log('Hola');
-	console.log('conflicto');
-	console.log('jssj');
-	console.log('Pepito');
 });
