@@ -2,9 +2,11 @@ document.addEventListener('DOMContentLoaded', function(){
 	
 	let form = document.getElementById('form_user');
 	console.log(form);	
-	document.getElementById('form_user').addEventListener('click', function(e){
+	form.addEventListener('submit', function(e){
 		e.preventDefault();
-		console.log(e);
+		for(let campo of form.children) {
+			console.log(campo);
+		}
 	});
 
 });
