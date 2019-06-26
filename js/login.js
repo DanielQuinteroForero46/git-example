@@ -1,5 +1,10 @@
-console.log('Script de Login');
+document.addEventListener('DOMContentLoaded', function(){
+	
+	let form = document.getElementById('form_user');
+	console.log(form);	
+	document.getElementById('form_user').addEventListener('click', function(e){
+		e.preventDefault();
+		console.log(e);
+	});
 
-document.getElementById('btn-registrar').addEventListener('click', function(e){
-	console.log(e);
 });
