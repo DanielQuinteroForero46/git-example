@@ -10,5 +10,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	});
 
 
+	console.log('Hola');
 	console.log('conflicto');
+	console.log('jssj');
 });
